@@ -125,7 +125,7 @@ intro:
     # service item loop
     - title : "At KumoFoundry, we understand your challenges"
       images:
-      - "images/service-1.png"
+      - "images/problem.svg"
       content : "We believe that powerful digital solutions should be accessible and understandable for everyone. That's why we've built a unique approach designed to empower your business, not complicate it."
       button:
         enable : false
