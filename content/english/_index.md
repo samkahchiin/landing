@@ -119,49 +119,27 @@ about:
     title : Long-Term Partnership
     content : We're invested in your continuous growth and success.
 
-######################### Service #####################
-service:
+######################### Intro #####################
+intro:
   enable : true
   service_item:
     # service item loop
-    - title : "Our Solution: Simplified Tech, Sustainable Growth."
+    - title : "At KumoFoundry, we understand your challenges"
       images:
       - "images/service-1.png"
-      - "images/service-2.png"
-      - "images/service-3.png"
-      content : "We provide clear, actionable tech strategies and hands-on development, ensuring you get the digital tools you need to thrive, all within your budget. We cut through the complexity, offering you peace of mind and tangible results."
+      content : "We believe that powerful digital solutions should be accessible and understandable for everyone. That's why we've built a unique approach designed to empower your business, not complicate it."
       button:
         enable : false
         label : "Check it out"
         link : "#"
 
     # service item loop
-    - title : "Why Choose KumoFoundry? "
+    - title : "Our Solution: Simplified Tech, Sustainable Growth."
       images:
       - "images/service-1.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content : "We provide clear, actionable tech strategies and hands-on development, ensuring you get the digital tools you need to thrive, all within your budget. We cut through the complexity, offering you peace of mind and tangible results."
       button:
-        enable : true
-        label : "Check it out"
-        link : "#"
-
-    # service item loop
-    - title : "It’s a team of experienced and skilled people with distributions"
-      images:
-      - "images/service-2.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : true
-        label : "Check it out"
-        link : "#"
-
-    # service item loop
-    - title : "A company standing different from others"
-      images:
-      - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : true
+        enable : false
         label : "Check it out"
         link : "#"
 
@@ -175,9 +153,9 @@ screenshot:
 ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Ready to get started?"
+  title : "Ready to Grow Your Business Digitally?"
   image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  content : "Let's discuss how KumoFoundry can simplify your tech journey and help you achieve your online goals. Schedule a free consultation today!"
   button:
     enable : true
     label : "Contact Us"
