@@ -22,63 +22,9 @@
 {{ end }}
 <!-- /banner -->
 
-<!-- feature -->
-{{ with .Params.feature }}
-{{ if .enable }}
-<section class="section bg-light">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-      {{ range .feature_item }}
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="feature-card text-center">
-          <i class="{{.icon}} mb-3"></i>
-          <h4 class="mb-2">{{ .name | title }}</h4>
-          <p>{{ .content | markdownify }}</p>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /feature -->
-
-<!-- problem -->
-{{ with .Params.problem }}
-{{ if .enable }}
-<section class="section bg-light">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 order-2 order-md-1">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
-        {{ range .points }}
-        <li>{{ . | markdownify }}</li>
-        {{ end }}
-      </div>
-      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        <div class="swiper testimonial-slider">
-            <div {{if gt (len .images) 1}}class="swiper-wrapper" {{end}}>
-              {{ range .images }}
-              <div class="swiper-slide">
-                {{ partial "image.html" (dict "Src" . "Alt" "Image" ) }}
-              </div>
-              {{ end }}
-            </div>
-          <div class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- problem -->
-
+{{ partial "problem.html" . }}
+{{ partial "services.html" . }}
+{{ partial "about.html" . }}
 
 <!-- service -->
 {{ with .Params.service }}
@@ -147,11 +93,6 @@
 {{ end }}
 {{ end }}
 <!-- /service -->
-
-
-
-
-
 
 <!-- screenshot -->
 {{ with .Params.screenshot }}
