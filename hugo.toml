@@ -143,6 +143,8 @@ font_icon = "Font Awesome 6 Free"          # https://fontawesome.com/v5.15/icons
 
 # CSS Plugins
 [[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
 link = "plugins/swiper/swiper-bundle.css"
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/brands.css"
