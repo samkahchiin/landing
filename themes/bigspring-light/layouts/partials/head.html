@@ -6,6 +6,11 @@
 
 <meta name="theme-name" content="bigspring-light" />
 
+{{ "<!-- plugins -->" | safeHTML }}
+{{ range site.Params.plugins.css }}
+<link rel="stylesheet" href="{{ .link | absURL }}">
+{{ end }}
+
 <!-- favicon -->
 {{ partialCached "favicon" . }}
 

@@ -1,9 +1,9 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/bigspring/site/"
-title = "Bigspring Light"
+baseURL = "https://kumofoundry.com"
+title = "KumoFoundry"
 theme = "bigspring-light"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
+timeZone = "Asia/Kuala_Lumpur"
 # post pagination
 pagination.pagerSize = 3
 # post excerpt
@@ -118,7 +118,7 @@ light = "#EDF6F5"
 dark = "#1b2229"
 
 # font variables
-# base font size for full website, 
+# base font size for full website,
 font_size = "16px" # default is 16px
 
 # Font Scale Sizes
@@ -143,6 +143,8 @@ font_icon = "Font Awesome 6 Free"          # https://fontawesome.com/v5.15/icons
 
 # CSS Plugins
 [[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
 link = "plugins/swiper/swiper-bundle.css"
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/brands.css"
@@ -152,7 +154,6 @@ link = "plugins/font-awesome/v6/solid.css"
 link = "plugins/font-awesome/v6/regular.css"
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/icons.css"
-
 
 # JS Plugins
 [[params.plugins.js]]

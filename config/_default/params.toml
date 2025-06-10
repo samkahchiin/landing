@@ -23,11 +23,11 @@ demo_form_action = "#!" # demo form works with [https://airform.io/] or [https:/
 career_form_action = "#"
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
-# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
 theme_copyright = true
-copyright = "Copyright by your company"
+copyright = "Copyright © 2025 KumoFoundry. All Rights Reserved."
 
 # preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
