@@ -51,15 +51,6 @@ url = "#"
 name = "Features"
 url = "#"
 
-# footer menu right
-[[footer_right]]
-name = "Privacy Policy"
-url = "/privacy-policy"
-
-[[footer_right]]
-name = "Terms & Conditions"
-url = "/terms-conditions"
-
 [[footer_right]]
 name = "FAQ"
 url = "/faq"
