@@ -26,23 +26,8 @@
 {{ partial "intro.html" . }}
 {{ partial "about.html" . }}
 {{ partial "services.html" . }}
-
-<!-- screenshot -->
-{{ with .Params.screenshot }}
-{{ if .enable }}
-<section class="section pb-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-    </div>
-  </div>
-  {{ with .image }} <img src="{{ . | relURL }}" alt="" class="img-fluid w-100">{{ end }}
-</section>
-{{ end }}
-{{ end }}
-<!-- /screenshot -->
+{{ partial "approach.html" . }}
+{{ partial "screenshot.html" . }}
 {{ partial "cta.html" . }}
 
 {{ end }}

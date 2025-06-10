@@ -1,9 +1,9 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Your Trusted Tech Partner for Smart, Sustainable Digital Growth in Malaysia"
+  title : "Your Trusted Tech Partner for <br> Smart, Sustainable Digital Growth in Malaysia"
   image : "images/banner-art.svg"
-  content : "KumoFoundry helps entrepreneurs, women-led businesses, and SMEs build powerful online presences and streamline operations – without jargon or overwhelm. Get expert guidance and hands-on development tailored to your unique needs."
+  content : "KumoFoundry helps entrepreneurs, and SMEs build powerful online presences and streamline operations – without jargon or overwhelm. Get expert guidance and hands-on development tailored to your unique needs."
   button:
     enable : true
     label : "Contact Us"
@@ -90,7 +90,6 @@ services:
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
       content : Harness the power of the AI to streamline your operations, enhance collaboration, and increase your productivity.
 
-
     # service item loop
     - name : Digital Transformation Consulting
       icon : ti-package # themify icon pack : https://themify.me/themify-icons
@@ -145,7 +144,7 @@ intro:
 
 ################### Screenshot ########################
 screenshot:
-  enable : true
+  enable : false
   title : "Experience the best <br> workflow with us"
   image : "images/screenshot.svg"
 
@@ -155,9 +154,32 @@ call_to_action:
   enable : true
   title : "Ready to Grow Your Business Digitally?"
   image : "images/cta.svg"
-  content : "Let's discuss how KumoFoundry can simplify your tech journey and help you achieve your online goals. Schedule a free consultation today!"
+  content : "Let's discuss how KumoFoundry can simplify your tech journey and help you achieve your online goals. "
   button:
     enable : true
     label : "Contact Us"
     link : "contact/"
+
+################### Approach ########################
+approach:
+  enable : true
+  image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
+  title : Our Unique Approach Section
+  content : "In today's fast-paced digital world, a strong online presence and efficient digital tools are no longer optional – they're essential for growth. But navigating the complexities of web development, SEO, cloud solutions, and digital transformation can be daunting. You might be facing:"
+  item :
+      # feature item loop
+    - title : Tech Consultancy as a Service (TCaaS)
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Your Affordable Digital Partner
+
+      # feature item loop
+    - title : No Jargon, No Overwhelm
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : Clear Communication, Real Results
+
+      # feature item loop
+    - title : Empowering Entrepreneurs, Women-Led Businesses & SMEs
+      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      content : Special Price for women-led businesses and NGO
 ---
