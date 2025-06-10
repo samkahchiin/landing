@@ -2,7 +2,7 @@
 ####################### Banner #########################
 banner:
   title : "Your Trusted Tech Partner for <br> Smart, Sustainable Digital Growth"
-  image : "images/banner-art.svg"
+  image : "images/website-creator.svg"
   content : "KumoFoundry helps entrepreneurs, and SMEs build powerful online presences and streamline operations – without jargon or overwhelm. Get expert guidance and hands-on development tailored to your unique needs."
   button:
     enable : true
@@ -135,7 +135,7 @@ intro:
     # service item loop
     - title : "Our Solution: Simplified Tech, Sustainable Growth."
       images:
-      - "images/service-1.png"
+      - "images/growth.svg"
       content : "We provide clear, actionable tech strategies and hands-on development, ensuring you get the digital tools you need to thrive, all within your budget. We cut through the complexity, offering you peace of mind and tangible results."
       button:
         enable : false
@@ -153,7 +153,7 @@ screenshot:
 call_to_action:
   enable : true
   title : "Ready to Grow Your Business Digitally?"
-  image : "images/cta.svg"
+  image : "images/ecommerce.svg"
   content : "Let's discuss how KumoFoundry can simplify your tech journey and help you achieve your online goals. "
   button:
     enable : true
