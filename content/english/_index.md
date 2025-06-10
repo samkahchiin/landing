@@ -44,20 +44,80 @@ feature:
       icon : "fas fa-cloud"
       content : "For NGOs and women-led businesses"
 
+problems:
+  enable : true
+  image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
+  title : Are you an entrepreneur, an SME or NGO in SEA struggling with technology?
+  content : "In today's fast-paced digital world, a strong online presence and efficient digital tools are no longer optional – they're essential for growth. But navigating the complexities of web development, SEO, cloud solutions, and digital transformation can be daunting. You might be facing:"
+  feature_item :
+      # feature item loop
+    - title : Confusing Jargon
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Tech talk that leaves you feeling overwhelmed and unsure.
+
+      # feature item loop
+    - title : High Costs
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : Traditional consultancy fees that are out of reach for small businesses.
+
+      # feature item loop
+    - title : Lack of Clear Direction
+      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      content : Uncertainty about which digital strategies are right for your business goals.
+
+      # feature item loop
+    - title : Time Constraints
+      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+      content : Not enough hours in the day to manage your business AND its digital needs.
+################################# Service #################################
+services:
+  enable : true
+  title : Our Services
+  service_item :
+    # service item loop
+    - name : Custom Website Development
+      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+      content : Beautiful, functional, and responsive websites designed to convert visitors into customers.
+
+    # service item loop
+    - name : Search Engine Optimization (SEO)
+      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      content : Get found online! We optimize your website to rank higher in search results, driving organic traffic and increasing your visibility to potential clients.
+
+    # service item loop
+    - name : AI Tools & Integration
+      icon : ti-palette # themify icon pack : https://themify.me/themify-icons
+      content : Harness the power of the AI to streamline your operations, enhance collaboration, and increase your productivity.
 
 
-######################## Problem ######################
-problem:
-  enable: true
-  title: "Are you an entrepreneur, a woman-led business, or an SME in Malaysia struggling with technology?"
-  images:
-    - "images/service-1.png"
-  content: "In today's fast-paced digital world, a strong online presence and efficient digital tools are no longer optional – they're essential for growth. But navigating the complexities of web development, SEO, cloud solutions, and digital transformation can be daunting. You might be facing:"
-  points:
-    - "**Confusing Jargon**: Tech talk that leaves you feeling overwhelmed and unsure."
-    - "**High Costs**: Traditional consultancy fees that are out of reach for small businesses."
-    - "**Lack of Clear Direction**: Uncertainty about which digital strategies are right for your business goals."
-    - "**Time Constraints**: Not enough hours in the day to manage your business AND its digital needs."
+    # service item loop
+    - name : Digital Transformation Consulting
+      icon : ti-package # themify icon pack : https://themify.me/themify-icons
+      content : Ready to modernize your business processes? We guide you through the journey of adopting new technologies to improve efficiency, customer experience, and overall business performance.
+
+about:
+  title : Why Us?
+  about_item :
+  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
+    title : Affordable Expertise
+    content : High-quality tech consultancy and development that fits your budget.
+
+  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+    title : Local Understanding
+    content : Deep knowledge of the South East Asia market and business landscape.
+
+  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+    title : Personalized Approach
+    content : Solutions crafted specifically for your business goals and challenges.
+
+  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+    title : Transparency & Trust
+    content : Clear communication and honest advice, always.
+
+  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+    title : Long-Term Partnership
+    content : We're invested in your continuous growth and success.
 
 ######################### Service #####################
 service:
