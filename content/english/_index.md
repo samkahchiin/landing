@@ -77,44 +77,44 @@ services:
   service_item :
     # service item loop
     - name : Custom Website Development
-      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+      icon : fa-solid fa-code
       content : Beautiful, functional, and responsive websites designed to convert visitors into customers.
 
     # service item loop
     - name : Search Engine Optimization (SEO)
-      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      icon : fa-solid fa-magnifying-glass-chart
       content : Get found online! We optimize your website to rank higher in search results, driving organic traffic and increasing your visibility to potential clients.
 
     # service item loop
     - name : AI Tools & Integration
-      icon : ti-palette # themify icon pack : https://themify.me/themify-icons
+      icon : fa-solid fa-brain
       content : Harness the power of the AI to streamline your operations, enhance collaboration, and increase your productivity.
 
     # service item loop
     - name : Digital Transformation Consulting
-      icon : ti-package # themify icon pack : https://themify.me/themify-icons
+      icon : fa-solid fa-cloud-arrow-up
       content : Ready to modernize your business processes? We guide you through the journey of adopting new technologies to improve efficiency, customer experience, and overall business performance.
 
 about:
   title : Why Us?
   about_item :
-  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
+  - icon : fa-solid fa-hand-holding-dollar
     title : Affordable Expertise
     content : High-quality tech consultancy and development that fits your budget.
 
-  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+  - icon : fa-solid fa-map-location-dot
     title : Local Understanding
     content : Deep knowledge of the South East Asia market and business landscape.
 
-  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+  - icon : fa-solid fa-handshake-angle
     title : Personalized Approach
     content : Solutions crafted specifically for your business goals and challenges.
 
-  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+  - icon : fa-solid fa-handshake
     title : Transparency & Trust
     content : Clear communication and honest advice, always.
 
-  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+  - icon : fa-solid fa-infinity
     title : Long-Term Partnership
     content : We're invested in your continuous growth and success.
 
@@ -170,16 +170,16 @@ approach:
   item :
       # feature item loop
     - title : Tech Consultancy as a Service (TCaaS)
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      icon : fa-solid fa-laptop-file
       content : Your Affordable Digital Partner
 
       # feature item loop
     - title : No Jargon, No Overwhelm
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      icon : fa-solid fa-lightbulb
       content : Clear Communication, Real Results
 
       # feature item loop
     - title : Empowering Entrepreneurs, Women-Led Businesses & SMEs
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      icon : fa-solid fa-seedling
       content : Special Price for women-led businesses and NGO
 ---
