@@ -53,22 +53,22 @@ problems:
   feature_item :
       # feature item loop
     - title : Confusing Jargon
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      icon : "fa-solid fa-comment-dots" # themify icon pack : https://themify.me/themify-icons
       content : Tech talk that leaves you feeling overwhelmed and unsure.
 
       # feature item loop
     - title : High Costs
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      icon : "fa-solid fa-sack-dollar" # themify icon pack : https://themify.me/themify-icons
       content : Traditional consultancy fees that are out of reach for small businesses.
 
       # feature item loop
     - title : Lack of Clear Direction
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      icon : "fa-solid fa-signs-post"
       content : Uncertainty about which digital strategies are right for your business goals.
 
       # feature item loop
     - title : Time Constraints
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+      icon : "fa-solid fa-clock"
       content : Not enough hours in the day to manage your business AND its digital needs.
 ################################# Service #################################
 services:
