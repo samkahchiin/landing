@@ -1,7 +1,7 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Your Trusted Tech Partner for <br> Smart, Sustainable Digital Growth in Malaysia"
+  title : "Your Trusted Tech Partner for <br> Smart, Sustainable Digital Growth"
   image : "images/banner-art.svg"
   content : "KumoFoundry helps entrepreneurs, and SMEs build powerful online presences and streamline operations – without jargon or overwhelm. Get expert guidance and hands-on development tailored to your unique needs."
   button:
@@ -48,7 +48,7 @@ problems:
   enable : true
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
-  title : Are you an entrepreneur, an SME or NGO in SEA struggling with technology?
+  title : Are you an entrepreneur, an SME or NGO struggling with technology?
   content : "In today's fast-paced digital world, a strong online presence and efficient digital tools are no longer optional – they're essential for growth. But navigating the complexities of web development, SEO, cloud solutions, and digital transformation can be daunting. You might be facing:"
   feature_item :
       # feature item loop
